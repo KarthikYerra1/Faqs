@@ -1,0 +1,50 @@
+.bg-container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.faqs-container {
+  background-color: #fff;
+  background-size: cover;
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px 30px 20px 30px;
+  width: 70%;
+}
+
+@media screen and (min-width: 992px) {
+  .faqs-container {
+    padding: 40px;
+  }
+}
+
+.heading {
+  color: #cb8805;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.questions-container {
+  margin: 0px;
+  padding: 0px;
+}
